@@ -50,6 +50,19 @@ You can customize the behavior and appearance of the chatbot through the plugin 
 - Chat Title and Welcome Message: Customize the chatbot's title and welcome message for visitors.
 
 
+#### Allowing Visitors to Search the site for Information
+
+The OpenAI Chat WordPress Plugin includes a search feature that allows users to find specific information on your website. To use it, instruct users to follow these steps:
+
+1. Start a conversation with the chatbot by typing a message.
+2. Type "search" followed by the keyword or topic they want to search for. For example:
+   - To find a page named "Contact Us," they can type: `search Contact Us`
+   - To search for information about turtles, they can type: `search turtles`
+3. The chatbot will attempt to find a page on your website that matches the user's query. If it finds a match, it will provide the URL link to that page.
+4. If no matching page is found, the chatbot will attempt to provide an answer based on the available FAQs or refer the user to ChatGPT for assistance.
+
+This search feature helps users quickly locate relevant information on your website using natural language queries.
+
 ### Shortcode
 
 To add the chatbot to your pages or posts, use the `[openai_chat]` shortcode. You can customize the chatbot's title and welcome message by providing attributes to the shortcode.
