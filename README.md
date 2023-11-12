@@ -16,9 +16,30 @@ This plugin relies on OpenAI's API, which may incur real charges when used. You 
 
 ## Installation
 
-1. Upload the `openai-chat` folder to the `/wp-content/plugins/` directory.
-2. Activate the plugin through the 'Plugins' menu in WordPress.
-3. Configure the plugin settings in the WordPress dashboard under 'OpenAI Chat Settings.'
+Follow these steps to install and activate the OpenAI Chat WordPress Plugin:
+
+### Step 1: Download
+
+1. Visit the [GitHub repository](https://github.com/your-username/openai-chat) for the OpenAI Chat WordPress Plugin.
+2. Click the "Code" button and select "Download ZIP" to download the plugin's source code to your computer.
+
+### Step 2: Unzip
+
+1. Locate the downloaded ZIP file (usually in your computer's "Downloads" folder) and unzip it. You should now have a folder named `openai-chat` containing the plugin files.
+
+### Step 3: Upload to WordPress
+
+1. Log in to your WordPress admin dashboard.
+2. Navigate to the "Plugins" menu on the left sidebar and click "Add New."
+3. Click the "Upload Plugin" button at the top of the page.
+4. Choose the `openai-chat.zip` file located in the `openai-chat` folder on your computer and click "Install Now."
+
+### Step 4: Activate
+
+1. After installation, click the "Activate" button to activate the OpenAI Chat WordPress Plugin.
+2. The plugin is now active and ready to use.
+
+## Usage
 
 ## Plugin Settings
 
@@ -28,7 +49,6 @@ You can customize the behavior and appearance of the chatbot through the plugin 
 - Custom JSON Data: Add Frequently Asked Questions (FAQs) directly through the admin panel.
 - Chat Title and Welcome Message: Customize the chatbot's title and welcome message for visitors.
 
-## Usage
 
 ### Shortcode
 
