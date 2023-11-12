@@ -1,0 +1,125 @@
+/* Basic Styles for OpenAI Chat Plugin */
+
+.openai-chat-container {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 300px;
+    background-color: #f1f1f1;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: all 0.3s;
+    max-height: 60px;
+    cursor: pointer;
+}
+
+.openai-chat-container.expanded {
+    max-height: 500px; /* Adjust as per your need */
+    cursor: default;
+}
+
+.openai-chat-header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.openai-chat-instructions, .openai-chat-messages, .openai-chat-input, .openai-chat-send {
+    display: none; /* Initially hidden */
+}
+
+.openai-chat-container.expanded .openai-chat-instructions, 
+.openai-chat-container.expanded .openai-chat-messages, 
+.openai-chat-container.expanded .openai-chat-input, 
+.openai-chat-container.expanded .openai-chat-send {
+    display: block; /* Show when expanded */
+    padding: 10px;
+}
+
+.openai-chat-messages {
+    height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    background-color: white;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.openai-chat-input {
+    width: calc(100% - 90px);
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.openai-chat-send {
+    width: 80px;
+    background-color: #0073aa;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.openai-chat-send:hover {
+    background-color: #005177;
+}
+
+/* Scrollbar styles */
+.openai-chat-messages::-webkit-scrollbar {
+    width: 6px;
+}
+
+.openai-chat-messages::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+.openai-chat-messages::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+.openai-chat-messages::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+.openai-chat-disclaimer {
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+.openai-chat-disclaimer p {
+    margin: 10px 0;
+}
+
+.openai-chat-disclaimer strong {
+    font-weight: bold;
+}
+
+.openai-chat-disclaimer b {
+    font-weight: bold;
+}
+
+.openai-chat-disclaimer a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.openai-chat-disclaimer button {
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.openai-chat-disclaimer button:hover {
+    background-color: #005bbf;
+}
