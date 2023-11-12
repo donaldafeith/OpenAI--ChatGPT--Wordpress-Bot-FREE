@@ -1,5 +1,7 @@
 This is a free plugin. There is no paid version or pro version of this plugin!!
 
+Like it? Give me a star. :D
+
 # OpenAI Chat WordPress Plugin
 
 ## Description
