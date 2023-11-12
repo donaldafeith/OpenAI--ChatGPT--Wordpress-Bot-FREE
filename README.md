@@ -1,4 +1,5 @@
-This is a free plugin. There is no paid version or pro version of this plugin!! Also it does cost to use OpenAI (ChatGPT)'s API! I am not charging you! OpenAI is. (There was some confusion before so I want to say this before anyone claims I'm charging them money for this plugin.)
+This is a free plugin. There is no paid version or pro version of this plugin!!
+
 # OpenAI Chat WordPress Plugin
 
 ## Description
