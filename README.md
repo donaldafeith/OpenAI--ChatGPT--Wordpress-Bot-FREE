@@ -20,7 +20,7 @@ Follow these steps to install and activate the OpenAI Chat WordPress Plugin:
 
 ### Step 1: Download
 
-1. Visit the [GitHub repository](https://github.com/donaldafeith/OpenAI--ChatGPT--Wordpress-Bot-FREE/) for the OpenAI Chat WordPress Plugin.
+1. Visit the [Donalda's Github repository](https://github.com/donaldafeith/OpenAI--ChatGPT--Wordpress-Bot-FREE/) for the OpenAI Chat WordPress Plugin.
 2. Click the "Code" button and select "Download ZIP" to download the plugin's source code to your computer.
 
 ### Step 2: Unzip
