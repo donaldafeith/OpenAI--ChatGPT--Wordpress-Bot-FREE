@@ -1,4 +1,6 @@
-This is a free plugin. There is no paid version or pro version of this plugin!!
+This is a free plugin. There is no paid version or pro version of this plugin!! 
+
+This plugin was created during mentorship of some local students to teach them the skills of using API's, AI, Wordpress, PHP, and CSS to plan, design, and program a website bot.
 
 Like it? Give me a star. :D
 
