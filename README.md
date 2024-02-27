@@ -97,5 +97,5 @@ Thank you for your understanding and for using the OpenAI Chat WordPress Plugin.
 
 ## License
 
-This plugin is released under the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.en.html).
+This plugin is released under the [GNU GPLv2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html).
 
