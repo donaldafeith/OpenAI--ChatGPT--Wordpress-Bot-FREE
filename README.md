@@ -1,3 +1,5 @@
+This project is tested with BrowserStack
+
 This is a free plugin. There is no paid version or pro version of this plugin!! 
 
 This plugin was created during mentorship of some local students to teach them the skills of using API's, AI, Wordpress, PHP, and CSS to plan, design, and program a website bot.
@@ -76,6 +78,8 @@ Example shortcode: `[openai_chat title="Chat with Us"]`
 ### FAQ Integration
 
 You can add and manage FAQs directly through the admin panel or by importing custom JSON data. FAQs are used to provide answers to common questions your visitors may have.
+We have tested this using different browsers.
+
 
 ### Disclaimer
 
